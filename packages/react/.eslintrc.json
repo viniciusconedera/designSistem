@@ -1,0 +1,11 @@
+{
+  "extends": "@ignite-ui/eslint-config",
+    "rules": {
+      "comma-dangle": 0,
+      "semi": [2, "always"],
+      "prettier/prettier": ["error", {
+        "trailingComma": "never",
+        "semi": true
+      }]
+    }
+}
