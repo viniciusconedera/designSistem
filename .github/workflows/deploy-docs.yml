@@ -20,6 +20,9 @@ jobs:
       - run: npm ci
 
       - run: npm run build
+        env:
+          TURBO_TOKEN: WqlBYmmEEPxjN6XutAtFg50W
+          TURBO_TEAM: dogma-team
 
       - name: Deploy storybook
         working-directory: ./packages/docs
