@@ -23,7 +23,7 @@ jobs:
 
       - run: npm run build
         env:
-          TURBO_TOKEN: WqlBYmmEEPxjN6XutAtFg50W
+          TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN}}
           TURBO_TEAM: dogma-team
 
       - name: Deploy storybook
